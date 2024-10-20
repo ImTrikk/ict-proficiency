@@ -5,7 +5,6 @@
 void reverse(int arr[], int size){ 
  int left = 0;
  int right = size-1;
- // int right = 5;
  int temp=0;
 
  while(left < right){

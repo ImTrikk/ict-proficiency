@@ -13,9 +13,9 @@ int main()
   printf("Array[%d] = %d \n", i, arr[i]);
  }
 
- int *xArr = &arr;
+ int *xArr = arr;
 
- printf("xArr %d", xArr + 1);
+ printf("xArr %d", xArr);
  printf("\n\n\n\n");
 
  for (int i = 0; i < size; i++)
